@@ -5,7 +5,6 @@ const Skills = () => {
 
   const techStack = [
     { name: "React", level: "Advanced" },
-    { name: "Next.js", level: "Advanced" },
     { name: "Tailwind CSS", level: "Expert" },
     { name: "JavaScript", level: "Core" },
     { name: "Bootstrap", level: "Legacy" },
