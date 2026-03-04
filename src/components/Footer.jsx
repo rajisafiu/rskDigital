@@ -1,5 +1,4 @@
 
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -8,6 +7,7 @@ const Footer = () => {
     { name: "GitHub", href: "#" },
     { name: "LinkedIn", href: "#" },
     { name: "Instagram", href: "#" },
+    { name: "Facebook", href: "#" },
   ];
 
   return (
@@ -25,23 +25,25 @@ const Footer = () => {
               RSK<span className="text-blue-500 font-extrabold italic">Digital</span>
             </a>
             <p className="text-slate-400 text-sm max-w-xs leading-relaxed">
-              Crafting premium digital experiences with modern tech stacks and intuitive design.
+              Engineering high-performance frontend experiences that bridge the gap between code and marketing.
             </p>
           </div>
 
-          {/* Quick Navigation */}
+          {/* Navigation Links */}
           <div className="grid grid-cols-2 gap-8 md:col-span-2 md:justify-items-end">
             <div className="flex flex-col gap-4">
-              <h4 className="text-white font-semibold text-sm uppercase tracking-widest">Platform</h4>
+              <h4 className="text-white font-semibold text-sm uppercase tracking-widest">Navigation</h4>
               <ul className="flex flex-col gap-2">
+                {/* Home Link Added Here */}
+                <li><a href="#home" className="text-slate-500 hover:text-blue-400 transition-colors text-sm">Home</a></li>
                 <li><a href="#about" className="text-slate-500 hover:text-blue-400 transition-colors text-sm">About</a></li>
-                <li><a href="#projects" className="text-slate-500 hover:text-blue-400 transition-colors text-sm">Projects</a></li>
                 <li><a href="#skills" className="text-slate-500 hover:text-blue-400 transition-colors text-sm">Skills</a></li>
+                <li><a href="#projects" className="text-slate-500 hover:text-blue-400 transition-colors text-sm">Projects</a></li>
               </ul>
             </div>
             
             <div className="flex flex-col gap-4">
-              <h4 className="text-white font-semibold text-sm uppercase tracking-widest">Social</h4>
+              <h4 className="text-white font-semibold text-sm uppercase tracking-widest">Connect</h4>
               <ul className="flex flex-col gap-2">
                 {footerLinks.map((link) => (
                   <li key={link.name}>
@@ -58,11 +60,11 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 gap-4">
           <p className="text-slate-500 text-xs">
-            © {currentYear} RSK Digital. Built with precision.
+            © {currentYear} RSK Digital. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-slate-500">
-            <a href="#" className="hover:text-slate-300">Privacy Policy</a>
-            <a href="#" className="hover:text-slate-300">Terms of Service</a>
+            <a href="#contact" className="hover:text-slate-300 transition-colors">Contact</a>
+            <a href="#" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>
