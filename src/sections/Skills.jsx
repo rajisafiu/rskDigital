@@ -13,7 +13,7 @@ const Skills = () => {
 
   const strategyStack = [
     { name: "SEO Optimization", type: "Organic" },
-    { name: "FB/Google Ads", type: "Paid" },
+    { name: "Facebook Ads", type: "Paid" },
     { name: "TikTok Ads", type: "Viral" },
     { name: "Email Strategy", type: "Retention" },
   ];

@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./sections/Hero";
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <Routes/>
     </>
   );
 }
