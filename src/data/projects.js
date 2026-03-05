@@ -4,7 +4,7 @@ const projects = [
     title: "E-Commerce Landing Page",
     description: "A high-conversion marketing interface optimized for rapid scaling and seamless user journeys.",
     image: "/images/project-ecommerce.jpg", // Replace with your actual image path
-    live: "https://empoweraid.vercel.app/",
+    live: "https://your-demo-link-1.com",
   },
   {
     id: 2,
