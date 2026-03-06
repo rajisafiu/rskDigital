@@ -145,7 +145,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed"
         >
-          I am a **Frontend Developer** and **Digital Marketer** dedicated to bridging the gap between clean, scalable code and results-driven strategy. I help brands turn visitors into loyal customers through seamless engineering.
+          I am a Frontend Developer and Digital Marketer dedicated to bridging the gap between clean, scalable code and results-driven strategy. I help brands turn visitors into loyal customers through seamless engineering.
         </motion.p>
 
         {/* 4. Upgraded Buttons */}
